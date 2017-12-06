@@ -30,7 +30,9 @@ input:hover{
 }
 
 .child :nth-child(1){
-  height: 100px
+  height: 100px;
+  /* display: none; */
+  pointer-events: none;
 }
 
 .var{

@@ -10,7 +10,7 @@ class App extends Component {
      </div>
      <h1>Hello</h1>
        <div className='child'>
-         <input className='input1' disabled type="text"/>
+         <input className='input1' type="text"/>
          <input className='input2' type="text"/>
        </div>
        <div className='background'>
