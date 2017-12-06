@@ -1,0 +1,48 @@
+div + h1{
+  font-weight: 100;
+  color: red;
+  font-size: 100px;
+}
+
+.background{
+  background-image: url('./yup.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  height: 600px;
+  width: 600px;
+}
+
+.border{
+  --main-bg-color: brown;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  float: right;
+  background-color: var(--main-bg-color)
+}
+
+input:focus{
+  background-color: yellow;
+}
+
+input:hover{
+  background-color: grey;
+}
+
+.child :nth-child(1){
+  height: 100px
+}
+
+.var{
+
+  height: 100px;
+  width: 100px;
+  background: red;
+  background: linear-gradient(red, yellow);
+  box-shadow: 10px 5px 5px blue;
+  word-wrap: break-word;
+}
+/* 
+.grandParent{
+  display: grid;
+} */
